@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+exec penv -P /tmp/anaconda3/ "$@"
