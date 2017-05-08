@@ -3,12 +3,12 @@ from flask import Flask, request, jsonify
 from worker import integrate
 
 from flask_cors import CORS
-CORS(app)
 
 # to run:
 # $ python3 restapi.py
 
 app = Flask(__name__)
+CORS(app)
 TASKS = {}
 
 @app.route('/', methods=['GET'])

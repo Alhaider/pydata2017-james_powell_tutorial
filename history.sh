@@ -1,3 +1,11 @@
+# my commands to get it started
+# anaconda virtual environment
+source activate myenv
+./backend/restapi.py
+redis-server
+celery -A worker worker
+
+# James Powell's command history
 : 1494000941:0;../env http GET http://localhost:5000 f='sqrt(4 - xs**2)' a:=0 b:=2 c:=0 d:=2
 : 1494001539:0;../env http PUT http://localhost:5000 f='sqrt(4 - xs**2)' a:=0 b:=2 c:=0 d:=2
 : 1494001792:0;http GET http://localhost:5000

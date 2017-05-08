@@ -3,4 +3,6 @@ syntax: glob
 .DS_Store
 .ipynb*
 __pycache__
+frontend/node_modules/
+dump.rdb
 
