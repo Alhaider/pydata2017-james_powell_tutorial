@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Layout = ({ main, navbar, debug }) => (
     <div className="container-fluid">
         <div className="row">
@@ -24,3 +26,5 @@ const Navbar = () => (
         </ul>
     </nav>
 )
+
+export { Navbar, Layout }

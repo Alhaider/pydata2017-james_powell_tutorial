@@ -1,0 +1,6 @@
+syntax: glob
+
+.DS_Store
+.ipynb*
+__pycache__
+
